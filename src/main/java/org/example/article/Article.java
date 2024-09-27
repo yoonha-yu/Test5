@@ -3,6 +3,7 @@ package org.example.article;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import org.example.user.SiteUser;
 
 import java.time.LocalDateTime;
 
@@ -21,5 +22,10 @@ public class Article {
     private String content;
 
     private LocalDateTime createDate;
+    private LocalDateTime modifyDate;
+
+    @ManyToOne
+    private SiteUser author;
+
 
 }
