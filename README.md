@@ -24,7 +24,8 @@
 - html 미흡
 - ## UI/UX (화면 캡처본을 복사 붙여 넣기, url 주소 나오도록)
 - 게시글 리스트 페이지
-  <img width="1423" alt="스크린샷 2024-09-27 오후 12 27 25" src="https://github.com/user-attachments/assets/2e12fc2c-41f6-452b-9957-3b318b5eb5a9">
+ <img width="1174" alt="스크린샷 2024-09-27 오후 12 53 08" src="https://github.com/user-attachments/assets/b56f3e99-bb20-4af3-a7aa-5aac9783a69f">
+
 
 - 게시글 등록 폼 페이지
  <img width="1437" alt="스크린샷 2024-09-27 오후 12 28 12" src="https://github.com/user-attachments/assets/58d5598e-fa89-4a0e-ac00-f2ec91ae0979">
@@ -37,7 +38,6 @@
 
 - 회원가입 페이지
   <img width="1188" alt="스크린샷 2024-09-27 오후 12 30 03" src="https://github.com/user-attachments/assets/279aa08d-200f-4b8d-900e-eb5b297e6982">
-- 피드백 수정
-  <img width="1174" alt="스크린샷 2024-09-27 오후 12 53 08" src="https://github.com/user-attachments/assets/3dc03ae9-bb46-4b7c-aec6-75c9ada8cc38">
+
 
 - (선택) 검색 페이지
