@@ -2,6 +2,8 @@ package org.example.article;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.example.user.SiteUser;
+import org.example.user.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
@@ -20,6 +22,7 @@ import java.util.List;
 public class ArticleController {
 
     private final ArticleService articleService;
+    private final UserService userService;
 
     @GetMapping("/list")
     public String list(Model model) {
@@ -38,6 +41,7 @@ public class ArticleController {
         if (bindingResult.hasErrors()){
             return "article_form";
         }
+        SiteUser siteUser = this.userService.getUser(principal.getName());
         this.articleService.create(articleForm.getTitle(),articleForm.getContent(),principal);
         return "redirect:/article/list";
     }
